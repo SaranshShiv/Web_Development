@@ -1,0 +1,124 @@
+#box10{
+    width:150px;
+    height:150px;
+    background-color:bisque;
+    border:10px solid white;
+    position:relative;
+    animation: mySlide 4s infinite;
+    animation-delay:1s;
+    animation-direction:alternate;
+}
+
+#box11{
+    width:150px;
+    height:150px;
+    background-color:bisque;
+    border:10px solid white;
+    position:relative;
+    margin: 30px auto;
+    animation : rotate 2s infinite;
+}
+#box12{
+    width:150px;
+    height:150px;
+    background-color:bisque;
+    border:10px solid white;
+    position:relative;
+    margin: 30px auto;
+    animation : fade 4s infinite;
+    animation-direction : alternate;
+}
+#box13{
+    width:150px;
+    height:150px;
+    background-color:bisque;
+    border:10px solid white;
+    position:relative;
+    margin: 30px auto;
+    animation : sizechange 2s infinite;
+    animation-direction : alternate;
+}
+#box14{
+    width:150px;
+    height:150px;
+    background-color:bisque;
+    border:10px solid white;
+    position:relative;
+    margin: 30px auto;
+    animation: colorchange 5s infinite;
+    animation-direction: alternate;
+}
+#box15{
+    width:150px;
+    height:150px;
+    background-color:bisque;
+    border:10px solid white;
+    position:relative;
+    
+    animation: mySlide2 0.2s infinite;
+    animation-direction: alternate;
+}
+#box16{
+    width:150px;
+    height:150px;
+    background-color:bisque;
+    border:10px solid white;
+    position:relative;
+    margin-left:80%;
+    animation: jump 0.3s infinite;
+
+}
+
+
+@keyframes mySlide{
+    from {
+        margin-left:0%;
+    }
+    to{
+        margin-left:85%;
+    }
+}
+@keyframes mySlide2{
+    from {
+        margin-left:0px;
+    }
+    to{
+        margin-left:100px;
+    }
+}
+@keyframes rotate{
+    from{
+        transform : rotate(0deg);
+    }
+    to{
+        transform : rotate(360deg);
+    }
+}
+@keyframes fade{
+    from{
+        opacity:1;
+    }
+    to{
+        opacity:10%;
+    }
+}
+@keyframes sizechange{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(0.25);
+    }
+}
+@keyframes colorchange{
+        20%{background-color: red;}
+        40%{background-color: yellow;}
+        60%{background-color: blue;}
+        80%{background-color: green;}
+        100%{background-color: purple;}
+}
+@keyframes jump{
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-100px);}
+    100% {transform: translateY(0);}
+}

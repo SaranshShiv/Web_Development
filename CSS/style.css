@@ -1,0 +1,43 @@
+body{
+    background-image: url("abc.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+p{
+    color:white;
+}
+.one{
+    background-color:red;
+}
+.two{
+    background-color:yellow
+}
+#p1{
+    color:white;
+    font-family:cursive;
+    font-size:15px;
+}
+
+#p2{
+    background: linear-gradient(to right ,skyblue,lightgreen);
+    color:purple;
+    text-decoration-color: aqua;
+
+}
+#p3{
+    color:green;
+    font-size:20px;
+    text-decoration:wavy underline;
+}
+#p4{
+    color:black;
+    font-weight:bolder;
+    text-align: center;
+}
+#p5{
+    background-color:orange;
+    border-radius: 10px;
+    border-style: dashed;
+}

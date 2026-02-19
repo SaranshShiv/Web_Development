@@ -1,0 +1,12 @@
+a:link{
+    background-color:green;
+    color:brown;
+}
+a:hover{
+    background-color:orange;
+    color:white;
+}
+button:hover{
+    background-color:black;
+    color:white;
+}
